@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-5</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Sidebar Style 5 starts -->
+<!-- Left Bar -->
+<div class="flex flex-wrap">
+    <div class="md:w-1/5 w-full bg-white shadow min-h-screen md:h-full flex flex-col justify-between">
+        <div>
+            <div class="h-16 pl-12 w-full flex items-center border-b">
+                <img class="rounded-full" src="https://images.unsplash.com/photo-1495366554757-8568e69d7f80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=44&h=44&q=60" alt="logo" />
+            </div>
+            <ul class="pl-6 bg-white rounded pt-8">
+                <li class="text-xs cursor-pointer text-indigo-500 text-sm leading-3 pl-2 py-2 tracking-normal hover:text-indigo-500 focus:text-indigo-500 focus:outline-none">
+                    <div class="flex items-center">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-grid"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="4" y="4" width="6" height="6" rx="1" />
+                            <rect x="14" y="4" width="6" height="6" rx="1" />
+                            <rect x="4" y="14" width="6" height="6" rx="1" />
+                            <rect x="14" y="14" width="6" height="6" rx="1" />
+                        </svg>
+                        <span class="w-32 ml-3">Dashboard</span>
+                        <span class="px-3 py-1 rounded bg-indigo-200 text-indigo-500 font-xs flex items-center justify-center mr-3">5</span>
+                    </div>
+                </li>
+                <li class="text-xs cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pl-2 mt-6 py-2 hover:text-indigo-500 focus:text-indigo-500 focus:outline-none">
+                    <div class="flex items-center">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-puzzle"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <path
+                                    d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1"
+                            />
+                        </svg>
+                        <span class="mr-8 ml-3">Products</span>
+                    </div>
+                </li>
+                <li class="text-xs cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pl-2 mt-6 py-2 hover:text-indigo-500 focus:text-indigo-500 focus:outline-none">
+                    <div class="flex items-center">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-compass"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                            <circle cx="12" cy="12" r="9" />
+                        </svg>
+                        <span class="w-32 ml-3">Performance</span>
+                        <span class="px-3 py-1 rounded bg-gray-200 text-gray-600 font-xs flex items-center justify-center mr-3">7</span>
+                    </div>
+                </li>
+                <li class="text-xs cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pl-2 mt-6 py-2 hover:text-indigo-500 focus:text-indigo-500 focus:outline-none">
+                    <div class="flex items-center">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-code"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <polyline points="7 8 3 12 7 16" />
+                            <polyline points="17 8 21 12 17 16" />
+                            <line x1="14" y1="4" x2="10" y2="20" />
+                        </svg>
+                        <span class="mr-8 ml-3">Deliverables</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="flex justify-center mt-16 mb-24 w-full">
+                <div class="relative w-4/5">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="text-gray-500 absolute ml-4 inset-0 m-auto icon icon-tabler icon-tabler-search"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>
+                    <input class="border border-gray-100 focus:outline-none focus:border-indigo-500 rounded w-full text-sm text-gray-500 bg-gray-100 pl-12 py-3" type="text" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="w-full flex items-center justify-between bg-gray-800">
+                <li class="cursor-pointer text-white ml-8 py-3">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-bell"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                        <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                    </svg>
+                </li>
+                <li class="cursor-pointer text-white py-3">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-messages"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+                        <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+                    </svg>
+                </li>
+                <li class="cursor-pointer text-white py-3">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-settings"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <path
+                                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                        />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
+                </li>
+                <li class="cursor-pointer text-white mr-8 py-3">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-archive"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <rect x="3" y="4" width="18" height="4" rx="2" />
+                        <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+                        <line x1="10" y1="12" x2="14" y2="12" />
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container mx-auto mb-10 h-64 md:w-9/12 mt-10 w-11/12 ">
+      
+<!-- <div class="w-full bg-gray-200 py-4"> -->
+    <div class="mx-auto w-11/12  bg-white shadow rounded">
+        <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row p-8 justify-between items-start sm:items-center w-full">
+            <h2 class="text-lg leading-4 font-bold text-gray-800 mb-4 sm:mb-0">Job Postings</h2>
+            <div class="mt-4 -mb-4 sm:hidden relative w-full z-10">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="absolute inset-0 m-auto mr-4 z-0 icon icon-tabler icon-tabler-selector"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#a0aec0"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                >
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <polyline points="8 9 12 5 16 9" />
+                    <polyline points="16 15 12 19 8 15" />
+                </svg>
+                <select aria-label="Selected tab" class="form-select block w-full py-2 px-3 border border-gray-300 rounded text-gray-600 appearance-none bg-transparent">
+                    <option class="text-sm text-gray-600">Inactive </option>
+                    <option class="text-sm text-gray-600">Inactive </option>
+                    <option selected="" class="text-sm text-gray-600">Active </option>
+                    <option class="text-sm text-gray-600">Inactive </option>
+                    <option class="text-sm text-gray-600">Inactive </option>
+                </select>
+            </div>
+            <ul class="hidden sm:flex items-start sm:items-center">
+                <li class="font-normal flex justify-center items-center w-16 h-8 rounded mr-4 sm:mr-0 md:mr-0 lg:mr-0 xl:mr-0 sm:ml-4 md:ml-4 lg:ml-4 xl:ml-4 bg-gray-200 text-indigo-500 text-sm">
+                    Active
+                </li>
+                <li class="font-normal flex justify-center items-center w-16 h-8 rounded mr-4 sm:mr-0 md:mr-0 lg:mr-0 xl:mr-0 sm:ml-4 md:ml-4 lg:ml-4 xl:ml-4 bg-white text-gray-500 text-sm">
+                    Inactive
+                </li>
+                <li class="font-normal flex justify-center items-center w-16 h-8 rounded mr-4 sm:mr-0 md:mr-0 lg:mr-0 xl:mr-0 sm:ml-4 md:ml-4 lg:ml-4 xl:ml-4 bg-white text-gray-500 text-sm">
+                    Inactive
+                </li>
+                <li class="font-normal flex justify-center items-center w-16 h-8 rounded sm:ml-4 md:ml-4 lg:ml-4 xl:ml-4 bg-white text-gray-500 text-sm">
+                    Inactive
+                </li>
+            </ul>
+        </div>
+        <div class="w-full overflow-x-scroll lg:overflow-x-hidden">
+            <table class="min-w-full bg-white">
+                <thead>
+                <tr class="w-full h-16 border-gray-300 border-b">
+                    <th class="pl-8 pr-16 text-left">
+                        <div class="cursor-pointer relative w-4 h-4 border rounded-sm border-gray-400 bg-white"></div>
+                    </th>
+                    <th class="text-gray-600 pr-16 text-left text-base tracking-normal leading-4 py-8">Name</th>
+                    <th class="text-gray-600 pr-16 text-left text-base tracking-normal leading-4 py-8">Date</th>
+                    <th class="text-gray-600 pr-24 text-left text-base tracking-normal leading-4 py-8">Amount</th>
+                    <th class="text-gray-600 pr-10 text-left text-base tracking-normal leading-4 py-8">Status</th>
+                    <th class="text-gray-600 pr-8 text-left text-base tracking-normal leading-4 py-8">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="h-24 border-gray-300 border-b">
+                    <td class="pl-8 pr-16 text-left whitespace-no-wrap">
+                        <div class="cursor-pointer relative w-4 h-4 border rounded-sm border-gray-400 bg-white"></div>
+                    </td>
+                    <td class="text-base pr-16 whitespace-no-wrap text-gray-800 tracking-normal leading-4">Ralph Lauren</td>
+                    <td class="text-base pr-16 whitespace-no-wrap text-gray-800 tracking-normal leading-4">28 March ’20</td>
+                    <td class="text-base pr-24 whitespace-no-wrap text-gray-800 tracking-normal leading-4">$200</td>
+                    <td class="pr-10">
+                        <div class="w-full flex justify-start items-center h-full">
+                            <div class="bg-green-200 text-green-500 rounded-full text-sm leading-3 py-2 px-5">Active</div>
+                        </div>
+                    </td>
+                    <td class="pr-8">
+                        <button class="bg-gray-100 transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-gray-300 text-gray-700 px-6 py-2 text-xs">Action</button>
+                    </td>
+                </tr>
+                <tr class="h-24 border-gray-300 border-b">
+                    <td class="pl-8 pr-16 text-left">
+                        <div class="cursor-pointer relative w-4 h-4 border rounded-sm border-gray-400 bg-white"></div>
+                    </td>
+                    <td class="text-base pr-16 text-gray-800 tracking-normal leading-4">Ralph Lauren</td>
+                    <td class="text-base pr-16 text-gray-800 tracking-normal leading-4">28 March ’20</td>
+                    <td class="text-base pr-24 text-gray-800 tracking-normal leading-4">$200</td>
+                    <td class="pr-10">
+                        <div class="w-full flex justify-start items-center h-full">
+                            <div class="bg-green-200 text-green-500 rounded-full text-sm leading-3 py-2 px-5">Active</div>
+                        </div>
+                    </td>
+                    <td class="pr-8">
+                        <button class="bg-gray-100 transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-gray-300 text-gray-700 px-6 py-2 text-xs">Action</button>
+                    </td>
+                </tr>
+                <tr class="h-24 border-gray-300 border-b">
+                    <td class="pl-8 pr-16 text-left">
+                        <div class="cursor-pointer relative w-4 h-4 border rounded-sm border-gray-400 bg-white"></div>
+                    </td>
+                    <td class="text-base pr-16 text-gray-800 tracking-normal leading-4">Ralph Lauren</td>
+                    <td class="text-base pr-16 text-gray-800 tracking-normal leading-4">28 March ’20</td>
+                    <td class="text-base pr-24 text-gray-800 tracking-normal leading-4">$200</td>
+                    <td class="pr-10">
+                        <div class="w-full flex justify-start items-center h-full">
+                            <div class="bg-green-200 text-green-500 rounded-full text-sm leading-3 py-2 px-5">Active</div>
+                        </div>
+                    </td>
+                    <td class="pr-8">
+                        <button class="bg-gray-100 transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-gray-300 text-gray-700 px-6 py-2 text-xs">Action</button>
+                    </td>
+                </tr>
+                <tr class="h-24">
+                    <td class="pl-8 pr-16 text-left">
+                        <div class="cursor-pointer relative w-4 h-4 border rounded-sm border-gray-400 bg-white"></div>
+                    </td>
+                    <td class="text-base pr-16 text-gray-800 tracking-normal leading-4">Ralph Lauren</td>
+                    <td class="text-base pr-16 text-gray-800 tracking-normal leading-4">28 March ’20</td>
+                    <td class="text-base pr-24 text-gray-800 tracking-normal leading-4">$200</td>
+                    <td class="pr-10">
+                        <div class="w-full flex justify-start items-center h-full">
+                            <div class="bg-green-200 text-green-500 rounded-full text-sm leading-3 py-2 px-5">Active</div>
+                        </div>
+                    </td>
+                    <td class="pr-8">
+                        <button class="bg-gray-100 transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-gray-300 text-gray-700 px-6 py-2 text-xs">Action</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    
+    
+    <!-- </div> -->
+<!-- </div> -->
+
+<!-- Sidebar Style 5 ends -->
+</body>
+</html>
